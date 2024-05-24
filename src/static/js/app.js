@@ -53,7 +53,7 @@ function TodoListCard() {
         <React.Fragment>
             <AddItemForm onNewItem={onNewItem} />
             {items.length === 0 && (
-                <p className="text-center">No items yet! Add one above! Also: Is this edit working online?</p>
+                <p className="text-center">Der Reichtum der Gesellschaften, in welche kapitalistische Produktionsweise herrscht, erscheint als eine »ungeheure Warensammlung«, die einzelne Ware als seine Elementarform.</p>
             )}
             {items.map(item => (
                 <ItemDisplay
